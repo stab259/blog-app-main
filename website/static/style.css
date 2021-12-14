@@ -1,0 +1,67 @@
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background: rgb(144, 224, 239);
+  background: linear-gradient(
+    156deg,
+    rgba(144, 224, 239, 1) 0%,
+    rgba(0, 119, 182, 1) 100%
+  );
+  background-repeat: no-repeat;
+  color: #212529;
+}
+
+form {
+  min-height: max-content;
+}
+
+/* -------------- Post Content ----------- */
+
+.card {
+  padding: 1.5rem;
+}
+.card-header {
+  background-color: #fff;
+  border-bottom: none;
+}
+
+.card a:not(.btn) {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* -------x------- Post Content ------x----- */
+
+/* -------------- Image upload ----------- */
+
+.form-input {
+  max-width: 350px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: -3px -3px 7px rgba(94, 104, 121, 0.1),
+    3px 3px 7px rgba(94, 104, 121, 0.1);
+}
+
+.form-input img {
+  width: 100%;
+  display: none;
+  margin-bottom: 30px;
+}
+
+.form-input input {
+  /* display: none; */
+}
+
+button[type="submit"] {
+  width: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+  button[type="submit"] {
+    width: 100%;
+  }
+}
+
+/* -------x------- Image upload -----x------ */
